@@ -1,6 +1,7 @@
 # code here!
 
-class School 
+class School
+  attr_accessor :school 
   def new(roster)
     roster = []
   end 
