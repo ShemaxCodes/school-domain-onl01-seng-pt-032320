@@ -13,8 +13,9 @@ class School
   def add_student(name, grade)
     @add_student = name 
     @grade = grade 
+    roster.each do |name, grade|
     if grade > 0 
-      @roster << grade
+      @roster << name 
     end 
   end   
 end 
