@@ -14,7 +14,7 @@ class School
     @add_student = name 
     @grade = grade 
     if grade > 0 
-      @roster << grade.name  
+      @roster << grade
     end 
   end   
 end 
