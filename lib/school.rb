@@ -13,10 +13,8 @@ class School
   def add_student(name, grade)
     @add_student = name 
     @grade = grade 
-    roster.each do |name, grade|
-    if grade > 0 
-      @roster << name 
-    end 
-    end 
+   if roster.include?(grade)
+     roster[grade] = []
   end   
+  
 end 
