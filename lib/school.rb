@@ -17,5 +17,6 @@ class School
     if grade > 0 
       @roster << name 
     end 
+    end 
   end   
 end 
