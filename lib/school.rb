@@ -12,5 +12,8 @@ class School
   
   def add_student(name, grade)
     @add_student = name 
+    if grade < 0 
+      @roster << grade 
+    end 
   end   
 end 
