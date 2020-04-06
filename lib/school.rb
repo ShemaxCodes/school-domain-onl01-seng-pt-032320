@@ -9,4 +9,6 @@ class School
   def roster
     @roster
   end 
+  
+  def student()
 end 
